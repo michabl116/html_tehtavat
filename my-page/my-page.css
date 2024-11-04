@@ -1,1 +1,13 @@
-@ charset "UTF-8";
+@charset "UTF-8";
+#log{
+    background-color: #ffe4c4;
+    float: left;
+}
+
+#nav-bar{
+    background-color: #f5f5dc;
+    float: right;
+}
+li{
+    display: inline;
+}

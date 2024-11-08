@@ -6,14 +6,16 @@ header{
 }
 header h1{
     text-align: left;
-    width: 30%;
+    background-color: #7D8471;
+    width: 20%;
     display: inline-block;
 }
 
 header nav{
     text-align: right;
-    width: 60%;
+    width: 80%;
     display: inline-block;
+
 
 }
 header ul{
@@ -21,6 +23,7 @@ header ul{
     list-style-type: none;
     margin: 0.5em auto;
     text-align: center;
+    padding: 0;
 }
 header ul li{
     display: inline-block;
@@ -52,6 +55,11 @@ h2{
     justify-content: center;
 
 }
+
+body{
+    background-color: tan;
+}
+
 img{
     width: 800px;
     height: 300px;

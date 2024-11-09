@@ -1,119 +1,71 @@
-@charset "UTF-8";
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: tan;
+}
 header{
     display: block;
-    background-color: #ffe4c4;
-    width: 100%;
+    background-color: #E7EBDA;
+    width:100%;
 }
+
 header h1{
+    text-transform: uppercase;
     text-align: left;
-    background-color: #7D8471;
-    width: 20%;
-    display: inline-block;
+    width:30%;
+    display:inline-block;
 }
-
 header nav{
-    background-color: red;
     text-align: right;
-    width: 78%;
-    display: inline-block;
-
-
+    display:inline-block;
+    width:60%;
 }
+
 header ul{
     display: inline-block;
     list-style-type: none;
     margin: 0.5em auto;
     text-align: center;
-    padding: 0;
 }
+
 header ul li{
     display: inline-block;
 }
+
 header ul li a{
     text-decoration: none;
     border: solid;
-    border-color: #7D8471 ;
-    border-radius: 50px;
     border-color: #7D8471;
-    color:black;
-    padding: 0.6em;
+    border-radius: 50px;
+    background-color: #7D8471;
+    color: white;
+    padding: 0.3em;
 }
 
 header ul li a:hover{
-    background-color: darkgoldenrod;
-    border-color:darkgoldenrod;
+    background-color: #B8B799;
+    border-color: #B8B799;
 }
 
 header ul li a:active{
     padding: 0.2em;
 }
-
-h2{
+article{
     text-align: center;
+    margin: auto;
 }
-.centrado {
+article img {
+
+    width: 400px;
+    border-radius: 20%;
+    margin: auto;
+}
+section{
+    width: 60%;
     display: flex;
-    justify-content: center;
+    flex-wrap:wrap ;
 }
-#kuva1{
-
-    width: 600px;
-    height: 200px;
-    border-radius: 50px;
-
+section article{
+    width: 20%;
 }
-
-body{
-    background-color: tan;
-}
-
-.picture{
-    display: flex;
-    justify-content: center;
-}
-.picture2{
-    display: inline-block;
-    background-color: red;
-
-}
-
-.picture2 h3{
-    text-align: center;
-}
-#kuva2{
-    display: flex;
-    width: 250px;
-    height: 200px;
-    border-radius: 40px;
-}
-
-.picture3{
-    display: inline-block;
-    background-color: red;
-}
-.picture3 h4{
-    text-align: center;
-}
-
-
-#kuva3{
-    width: 250px;
-    height: 200px;
-    border-radius: 40px;
-
-}
-.picture4{
-    display: inline-block;
-    background-color: red;
-}
-.picture4 h5 {
-    text-align: center;
-}
-#kuva4{
-    width: 250px;
-    height: 200px;
-    border-radius: 40px;
-
-}
-
-

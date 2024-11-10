@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -60,33 +59,4 @@ header ul li a:hover{
 header ul li a:active{
     padding: 0.2em;
 }
-
-
-/* Productos */
-.products {
-    display: flex;
-    justify-content: space-between;
-}
-
-article {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-}
-
-article h2 {
-    margin-top: 0;
-}
-
-article figure {
-    margin: 0;
-}
-
-article img {
-    width: 100%;
-    height: auto;
-}
-
 

@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:fantasy;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -23,7 +23,7 @@ header{
 
 header h1{
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     width:30%;
     display:inline-block;
 }
@@ -46,12 +46,11 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    border: solid;
-    border-color: #7D8471;
+    border-color:black;
     border-radius: 50px;
-    background-color: #7D8471;
-    color: white;
+    background-color: bisque;
     padding: 0.3em;
+    text-color:black;
 }
 
 header ul li a:hover{
